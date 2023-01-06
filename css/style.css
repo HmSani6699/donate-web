@@ -15,7 +15,8 @@ main {
 .header {
     background-image: url(../images/donation5.jpg);
     background-repeat: no-repeat;
-
+    background-size: cover;
+    height: 500px;
 }
 
 .banner-section {
@@ -179,8 +180,30 @@ hr {
     text-align: center;
 }
 
-.input-part {
-    border: 1px solid;
+.form-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    margin: 50px 200px;
+    padding: 50px;
+}
+
+.input-email {
+    border: none;
+    padding: 10px;
+    background-color: rgba(200, 199, 199, 0.473);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.subcribe-btn {
+    border: none;
+    padding: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: coral;
+    color: white;
 }
 
 /* footer section style */
