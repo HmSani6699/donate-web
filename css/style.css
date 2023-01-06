@@ -13,7 +13,8 @@ main {
 }
 
 .header {
-    background-image: url(../images/donation5.jpg);
+
+    background-image: linear-gradient(rgba(34, 34, 34, 0), rgb(0, 0, 0)), url(../images/donation5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 500px;
@@ -59,7 +60,7 @@ main {
     margin-bottom: 20px;
 }
 
-ul {
+.donate-amount ul {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,19 +69,22 @@ ul {
 
 ul li {
     list-style: none;
-    padding: 30px 30px;
-    background-color: rgba(235, 234, 234, 0.302);
-    font-size: 20px;
-    font-weight: 600;
-    border-radius: 8px;
-    color: rgb(90, 90, 90);
-    margin-top: 20px;
+    padding: 30px;
+    background-color: rgba(196, 195, 195, 0.365);
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid transparent;
     margin-bottom: 30px;
+    color: gray;
 }
 
 ul li:hover {
-    border: 1px solid rgb(244, 105, 5);
-    background-color: rgba(231, 213, 200, 0.458);
+    border: 2px solid rgb(252, 4, 4);
+    background-color: rgba(220, 184, 184, 0.485);
+    border-radius: 5px;
+    color: rgb(252, 4, 4);
 }
 
 .other-amount {
